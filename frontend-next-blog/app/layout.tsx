@@ -32,13 +32,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <ThemeProvider>
-
-          <Header />
-          <Main>{children}</Main>
-          <Footer />
-          
-        </ThemeProvider>
+        <div className="app-layout">
+          <ThemeProvider>
+            <Header />
+            <Main>{children}</Main>
+            <Footer />
+          </ThemeProvider>
+        </div>
       </body>
     </html>
   );

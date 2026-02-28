@@ -1,4 +1,6 @@
 import posts from '../data/blog_posts.json';
+import { remark } from 'remark';
+import html from 'remark-html';
 
 export type Post = {
     id: number
@@ -24,4 +26,9 @@ export function getPostBySlug(slug: string): Post | undefined {
 
 export function getAllSlugs(): string[] {
     return (posts as unknown as Post[]).map((p) => p.slug);
+}
+
+export async function markdownToHtml(markdown: string): Promise<string> {
+    const result = await remark().use(html).process(markdown);
+    return result.toString();
 }

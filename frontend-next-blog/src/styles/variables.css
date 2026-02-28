@@ -10,11 +10,11 @@
     --color-bg: white;
     --color-fg: rgb(192, 192, 192);
 
-    --size-base: 0.25rem;
-    --size-sm: calc(var(--size-base) * 2);
-    --size-md: calc(var(--size-base) * 4);
-    --size-lg: calc(var(--size-base) * 6);
-    --size-xl: calc(var(--size-base) * 8);
+    --size-base: 14px;
+    --size-sm: calc(var(--size-base) * 1.2);
+    --size-md: calc(var(--size-base) * 1.8);
+    --size-lg: calc(var(--size-base) * 2.6);
+    --size-xl: calc(var(--size-base) * 2.8);
   
     --radius-sm: calc(var(--size-base) / 2);
   }

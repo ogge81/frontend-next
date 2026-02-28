@@ -9,10 +9,9 @@ The main goal is to build a frontend template application, that I can use in oth
 - ✅ build: router structure, and basic navigation.
 - ✅ build: Theme component.
 
-- ✅ build: blog post dummy data
+- ✅ build: blog main and post with dummy data
 
-- 🔳 build: build blog main page
+
 - 🔳 build: build blog components
-- 🔳 build: build blog slug page
 
 
