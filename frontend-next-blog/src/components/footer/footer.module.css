@@ -1,0 +1,25 @@
+.footer {
+    height: 100px;
+    display: flex;
+
+    background-color: rgb(218, 218, 218);
+}
+
+.left {
+    height: 100%;
+    flex: 1;
+}
+
+.center {
+    height: 100%;
+    flex: 2;
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.right {
+    height: 100%;
+    flex: 1;
+}
