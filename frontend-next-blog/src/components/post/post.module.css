@@ -1,0 +1,25 @@
+
+.grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.grid .card {
+    height: 150px;
+    border: 0.5px solid var(--color-border);
+    /* border-radius: var(--radius-sm); */
+    padding: 20px;
+    /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); */
+    cursor: pointer;
+}
+
+.banner {
+    height: 250px;
+    padding: 20px;
+    margin-top: 20px;
+    border: 0.5px solid var(--color-border);
+
+    cursor: pointer;
+}
