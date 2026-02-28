@@ -1,0 +1,20 @@
+/* Global variables */
+:root {
+    --color-title: #000000;
+    --color-title2: #707070;
+    --color-p: #000000;
+    --color-p2: #695a4d;
+
+    --color-border: #000000;
+
+    --color-bg: white;
+    --color-fg: rgb(192, 192, 192);
+
+    --size-base: 0.25rem;
+    --size-sm: calc(var(--size-base) * 2);
+    --size-md: calc(var(--size-base) * 4);
+    --size-lg: calc(var(--size-base) * 6);
+    --size-xl: calc(var(--size-base) * 8);
+  
+    --radius-sm: calc(var(--size-base) / 2);
+  }
