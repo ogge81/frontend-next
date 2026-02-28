@@ -1,3 +1,5 @@
+import Nav from '../nav/nav';
+
 import styles from './header.module.css';
 
 export default function Header() {
@@ -9,6 +11,7 @@ export default function Header() {
 
             <div className={styles.center}>
                 <h1>The Blog</h1>
+                <Nav />
             </div>
 
             <div className={styles.right}>
