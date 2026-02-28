@@ -5,6 +5,8 @@ import Header from "@/src/components/header/header";
 import Main from "@/src/components/main/main";
 import Footer from "@/src/components/footer/footer";
 
+import ThemeProvider from "@/src/components/theme/themeprovider";
+
 import "../src/styles/globals.css";
 
 const geistSans = Geist({
@@ -30,9 +32,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <Header />
-        <Main>{children}</Main>
-        <Footer />
+        <ThemeProvider>
+
+          <Header />
+          <Main>{children}</Main>
+          <Footer />
+          
+        </ThemeProvider>
       </body>
     </html>
   );

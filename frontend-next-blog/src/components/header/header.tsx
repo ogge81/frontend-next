@@ -1,12 +1,11 @@
 import Nav from '../nav/nav';
-
+import ThemeSwitch from '../theme/themswitch';
 import styles from './header.module.css';
 
 export default function Header() {
     return (
         <header className={styles.header}>
             <div className={styles.left}>
-
             </div>
 
             <div className={styles.center}>
@@ -16,6 +15,7 @@ export default function Header() {
 
             <div className={styles.right}>
 
+                <ThemeSwitch />
             </div>
         </header>
     )

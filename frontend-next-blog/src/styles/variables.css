@@ -18,3 +18,15 @@
   
     --radius-sm: calc(var(--size-base) / 2);
   }
+
+.dark {
+    --color-title: #ffffff;
+    --color-title2: #707070;
+    --color-p: #ffffff;
+    --color-p2: #695a4d;
+
+    --color-border: #ffffff;
+
+    --color-bg: #000000;
+    --color-fg: rgb(192, 192, 192);
+}

@@ -12,7 +12,6 @@ export default function Footer() {
             </div>
 
             <div className={styles.right}>
-
             </div>
         </footer>
     )
