@@ -8,10 +8,7 @@ The main goal is to build a frontend template application, that I can use in oth
 - ✅ build: layout, and mainpage components.
 - ✅ build: router structure, and basic navigation.
 - ✅ build: Theme component.
-
 - ✅ build: blog main and post with dummy data
-
-
-- 🔳 build: build blog components
+- ✅ build: build blog components
 
 
