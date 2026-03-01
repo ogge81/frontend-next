@@ -11,4 +11,14 @@ The main goal is to build a frontend template application, that I can use in oth
 - ✅ build: blog main and post with dummy data
 - ✅ build: build blog components
 
+- 🔳 update: routing and nav
+
+
+- 🔳 update: responsive
+- 🔳 build: better footer
+- 🔳 build: admin dashboard
+- 🔳 update: styling, layout of blog components
+- 🔳 update: blogpost object type
+- 🔳 build: build blog components
+
 

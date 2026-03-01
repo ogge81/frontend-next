@@ -6,7 +6,6 @@ import PostCard from './post_card';
 export default function PostGrid({ amount }: { amount?: number }) {
     const slicedPosts = amount ? posts.slice(0, amount) : posts;
 
-
     return (
         <div className={styles.grid}>
             {slicedPosts.map((post, index) => (

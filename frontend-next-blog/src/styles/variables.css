@@ -2,6 +2,7 @@
 :root {
     --color-title: #000000;
     --color-title2: #707070;
+    --color-nav-active: #2563eb;
     --color-p: #000000;
     --color-p2: #695a4d;
 
@@ -10,11 +11,11 @@
     --color-bg: white;
     --color-fg: rgba(228, 223, 220, 0.658);
 
-    --size-base: 14px;
-    --size-sm: calc(var(--size-base) * 1.2);
-    --size-md: calc(var(--size-base) * 1.8);
-    --size-lg: calc(var(--size-base) * 2.6);
-    --size-xl: calc(var(--size-base) * 2.8);
+    --size-base: 18px;
+    --size-sm: calc(var(--size-base) * 1.1);
+    --size-md: calc(var(--size-base) * 1.4);
+    --size-lg: calc(var(--size-base) * 2.2);
+    --size-xl: calc(var(--size-base) * 2.4);
   
     --radius-sm: calc(var(--size-base) / 2);
   }
@@ -22,6 +23,7 @@
 .dark {
     --color-title: #ffffff;
     --color-title2: #707070;
+    --color-nav-active: #60a5fa;
     --color-p: #ffffff;
     --color-p2: #695a4d;
 

@@ -9,8 +9,12 @@ export default function Header() {
             </div>
 
             <div className={styles.center}>
-                <h1>The Blog</h1>
-                <Nav />
+                <h1>Front Work</h1>
+                <Nav items={[
+                    { href: '/', label: 'Home' }, 
+                    { href: '/about', label: 'About' },
+                    { href: '/admin', label: 'Admin' }
+                    ]} />
             </div>
 
             <div className={styles.right}>

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import type { Post } from "@/src/lib/posts";
 import posts from '../../data/blog_posts.json';
 import styles from './post.module.css';
@@ -8,9 +9,9 @@ export default function PostList({ amount }: { amount?: number }) {
     return (
         <div className={styles.list}>
             {trimmedPosts.map((post) => (
-                <div key={post.id} className={styles.item}>
+                <Link key={post.id} href={`/blog/${post.slug}`} className={styles.item}>
                     <h3>{post.title} - {new Date(post?.publishedAt as string).toLocaleDateString()}</h3>
-                </div>
+                </Link>
             ))}
         </div>
     )

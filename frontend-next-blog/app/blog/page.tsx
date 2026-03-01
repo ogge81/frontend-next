@@ -9,9 +9,18 @@ export default function BlogPage() {
 
   return <div className={styles.page}>
 
-    <PostBanner/>
-    <PostGrid amount={4} />
-    <PostList amount={5} />
+      <div className={styles.top}>
+        <div className={styles.left}>
+          <h2>Blog</h2>
+        </div>
+        <div className={styles.right}>
+          {/* <PostBanner/> */}
+        </div>
+      </div>
 
+      <div className={styles.content}>
+        <PostGrid />
+        {/* <PostList /> */}
+      </div>
   </div>
 }
